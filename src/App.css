@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.card{
+  background-color: antiquewhite;
+  height: 350px;
+  width: 450px;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+.card h3 {
+  text-align: center;
+}
+.card input {
+  width: 280px;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.card button{
+  padding: 10px 20px;
+  margin-left:10px;
+  border-top-right-radius :5px ; 
+  border-bottom-right-radius: 5px;
+  background-color: #00FF00;
+}
+.listitem {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 5px; 
+  border-bottom: 1px solid #ccc;
+}
+
+.listitem p {
+  margin: 0; 
+}
+
+.listitem button {
+  margin-left: 10px; 
+  padding: 5px 10px; 
+  cursor: pointer;
+  background-color: #FF0000;
+}
